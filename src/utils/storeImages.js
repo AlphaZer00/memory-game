@@ -1,4 +1,4 @@
-import { fetchAlbumWithDescriptions } from "../api/imgur";
+import { fetchAlbumWithDescriptions } from "./imgur";
 
 let cachedImages = null;
 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchAlbumWithDescriptions } from "../api/imgur";
+import { fetchAlbumWithDescriptions } from "../utils/imgur";
 
 const TestAPI = () => {
     const [images, setImages] = useState([]);
