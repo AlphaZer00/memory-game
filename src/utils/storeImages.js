@@ -4,7 +4,7 @@ let cachedImages = null;
 
 export const fetchAndStoreImages = async (albumId) => {
     if (cachedImages) {
-        console.log("Using caches images");
+        console.log("Using cached images");
         return cachedImages;
     }
 
