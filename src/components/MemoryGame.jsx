@@ -46,11 +46,13 @@ const MemoryGame = () => {
         );
 
         // Determine how many unclicked cards needed to fill the display
-        const neededCardNum = Math.max(12-newClickedCards.length, 0);
+        const neededCardNum = Math.max(12 - newClickedCards.length, 0);
         // displayedCards must be an array of objects containing card info
         const displayedCards = [
             // newClickedCards only contains the ids, so we .map and .find to create an array of the card objects with matching ids
-            ...newClickedCards.map((id) => cards.find((card) => card.id === id)), 
+            ...newClickedCards.map((id) =>
+                cards.find((card) => card.id === id)
+            ),
             ...shuffleArray(remainingCards).slice(0, neededCardNum),
         ];
 
@@ -63,37 +65,28 @@ const MemoryGame = () => {
     if (!displayedCards.length) return <div>Loading...</div>;
 
     return (
-        <div>
-            <h1>Memory Game</h1>
-            <p>Click a card to start the game, don&apos;t click the card twice!</p>
-            <div
-                style={{
-                    display: "grid",
-                    gridTemplateColumns:
-                        "repeat(auto-fit, minmax (150px, 1fr))",
-                    gap: "10px",
-                }}
-            >
+        <div className="text-center m-5 flex flex-col items-center">
+            <h1 className="text-3xl mb-2 text-white font-bold">Memory Game</h1>
+            <p className="text-lg text-gray-300">
+                Click a card to start the game, don&apos;t click the same card
+                twice!
+            </p>
+            <div className="grid grid-cols-4 gap-2 justify-items-center max-w-[800px]">
                 {displayedCards.map((card) => (
                     <div
                         key={card.id}
                         onClick={() => handleCardClick(card.id)}
-                        style={{
-                            cursor: "pointer",
-                            border: "2px solid #ccc",
-                            borderRadius: "8px",
-                            overflow: "hidden",
-                        }}
+                        className="cursor-pointer p-4 rounded-lg bg-black bg-opacity-50 w-fit flex flex-col items-center justify-center"
+                        style={{ height: "25vh" }}
                     >
                         <img
                             src={card.link}
                             alt={card.description || "Memory card"}
-                            style={{
-                                width: "100%",
-                                height: "150px",
-                                objectFit: "cover",
-                            }}
+                            className="w-full h-full object-contain"
                         />
+                        <div className="text-white text-xl">
+                            {card.description}
+                        </div>
                     </div>
                 ))}
             </div>
