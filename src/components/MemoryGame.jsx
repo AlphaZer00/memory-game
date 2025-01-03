@@ -71,7 +71,7 @@ const MemoryGame = () => {
                 Click a card to start the game, don&apos;t click the same card
                 twice!
             </p>
-            <div className="grid grid-cols-4 gap-2 justify-items-center max-w-[800px]">
+            <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-2 justify-items-center">
                 {displayedCards.map((card) => (
                     <div
                         key={card.id}
