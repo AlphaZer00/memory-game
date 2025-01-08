@@ -75,8 +75,6 @@ https://github.com/AlphaZer00/memory-game
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `AlphaZer00`, `memory-game`, `twitter_handle`, `batuhan-dasdemir`, `gmail`, `batudasdemir`, `Clash Royale Memory Game`, `This Memory Game is a dynamic, interactive web application built with React that challenges players to test and improve their memory skills. The game displays a grid of cards, and the objective is to click on each card only once without repeating any selections. Each click shuffles the grid, requiring players to remember previously clicked cards. The app features a scoreboard that tracks the player's current score and highest score, as well as a "Game Over" screen with an option to restart the game while maintaining the high score. It uses responsive design to ensure an optimal experience across devices, and players are engaged with a readable UI powered by Tailwind CSS.`, `MIT License`
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -85,7 +83,9 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
+* [![Vite][Vite.dev]][Vite-url]
+* ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+* ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,7 +202,7 @@ Project Link: [https://github.com/AlphaZer00/memory-game](https://github.com/Alp
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [Royale API](https://github.com/royaleapi)
 * []()
 * []()
 
