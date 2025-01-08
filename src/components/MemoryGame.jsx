@@ -95,7 +95,7 @@ const MemoryGame = () => {
             ) : (
                 <>
                     <h1 className="text-3xl mb-2 text-white font-bold">
-                        Memory Game
+                        Clash Royale Memory Game
                     </h1>
                     <p className="text-lg text-gray-300">
                         Click a card to start the game, don&apos;t click the
