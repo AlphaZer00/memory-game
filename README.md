@@ -74,12 +74,10 @@ https://github.com/AlphaZer00/memory-game
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -140,14 +138,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Top contributors:
-
-<a href="https://github.com/AlphaZer00/memory-game/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AlphaZer00/memory-game" alt="contrib.rocks image" />
-</a>
-
-
-
 <!-- LICENSE -->
 ## License
 
@@ -160,7 +150,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - batudasdemir@gmail.com
+Batuhan Dasdemir - [LinkedIn][linkedin-url] - batudasdemir@gmail.com
 
 Project Link: [https://github.com/AlphaZer00/memory-game](https://github.com/AlphaZer00/memory-game)
 
@@ -173,22 +163,13 @@ Project Link: [https://github.com/AlphaZer00/memory-game](https://github.com/Alp
 
 * [Royale API](https://github.com/royaleapi)
 * [Imgur API](https://apidocs.imgur.com)
-* [SuperCell](https://supercell.com/en/)
+* [Supercell](https://supercell.com/en/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/AlphaZer00/memory-game.svg?style=for-the-badge
-[contributors-url]: https://github.com/AlphaZer00/memory-game/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AlphaZer00/memory-game.svg?style=for-the-badge
-[forks-url]: https://github.com/AlphaZer00/memory-game/network/members
-[stars-shield]: https://img.shields.io/github/stars/AlphaZer00/memory-game.svg?style=for-the-badge
-[stars-url]: https://github.com/AlphaZer00/memory-game/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AlphaZer00/memory-game.svg?style=for-the-badge
-[issues-url]: https://github.com/AlphaZer00/memory-game/issues
 [license-shield]: https://img.shields.io/github/license/AlphaZer00/memory-game.svg?style=for-the-badge
 [license-url]: https://github.com/AlphaZer00/memory-game/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
