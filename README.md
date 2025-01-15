@@ -13,7 +13,7 @@ https://github.com/AlphaZer00/memory-game
     <a href="https://github.com/AlphaZer00/memory-game"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/AlphaZer00/memory-game">View Demo</a>
+    <a href="https://fastidious-frangollo-98c086.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/AlphaZer00/memory-game/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -53,7 +53,7 @@ https://github.com/AlphaZer00/memory-game
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://fastidious-frangollo-98c086.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,10 +113,7 @@ To get a local copy running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
